@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(t){"use strict";return t.extend("com.dshop.test.integration.arrangements.Startup",{iStartMyApp:function(){this.iStartMyUIComponent({componentConfig:{name:"com.dshop",async:true,manifest:true}})}})});

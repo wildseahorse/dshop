@@ -1,0 +1,32 @@
+{
+	"name": "dshop_uimodule",
+	"version": "0.0.1",
+	"buildTimestamp": "202010171022",
+	"scmRevision": "",
+	"libraries": [
+		{
+			"name": "sap.m",
+			"version": "1.80.0",
+			"buildTimestamp": "202010171022",
+			"scmRevision": ""
+		},
+		{
+			"name": "sap.ui.core",
+			"version": "1.80.0",
+			"buildTimestamp": "202010171022",
+			"scmRevision": ""
+		},
+		{
+			"name": "sap.ui.layout",
+			"version": "1.80.0",
+			"buildTimestamp": "202010171022",
+			"scmRevision": ""
+		},
+		{
+			"name": "sap.ui.unified",
+			"version": "1.80.0",
+			"buildTimestamp": "202010171022",
+			"scmRevision": ""
+		}
+	]
+}

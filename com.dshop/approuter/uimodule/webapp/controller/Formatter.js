@@ -1,0 +1,1 @@
+sap.ui.define(function(){"use strict";var e={status:function(e){if(e==="Available"){return"Success"}else if(e==="Out of Stock"){return"Warning"}else if(e==="Discontinued"){return"Error"}else{return"None"}}};return e},true);

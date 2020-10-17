@@ -1,0 +1,1 @@
+sap.ui.define(["com/dshop/controller/BaseController","sap/ui/model/json/JSONModel","sap/m/MessageToast"],function(e,o,s){"use strict";return e.extend("com.dshop.controller.mainApp",{onInit:function(){var e=new o("mock_data/products.json");this.getView().setModel(e)},onListItemPress:function(e){s.show("Pressed : "+e.getSource().getTitle())}})});
