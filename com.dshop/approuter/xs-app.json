@@ -1,0 +1,27 @@
+{
+  "welcomeFile": "uimodule/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/uimodule/(.*)$",
+      "target": "$1",
+      "authenticationType": "none",
+      "localDir": "uimodule/webapp"
+    },
+    { 
+    "source": "^/uimodule/mock_data/(.*)$", 
+    "target": "$1",
+    "authenticationType": "none",
+    "localDir": "uimodule/webapp/mock_data"
+    },
+    {
+    "source": "^/uimodule/i18n/(.*)$",
+    "target": "$1",
+    "authenticationType": "none",
+    "localDir": "uimodule/webapp/i18n"
+    } 
+  ]
+}

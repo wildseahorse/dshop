@@ -1,0 +1,16 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "dshop",
+    "namespace": "com",
+    "platform": "Application Router @ Cloud Foundry",
+    "viewtype": "XML",
+    "viewname": "mainApp",
+    "ui5libs": "Content delivery network (OpenUI5)",
+    "newdir": true,
+    "namespaceURI": "com",
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}
